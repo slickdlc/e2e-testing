@@ -1,0 +1,12 @@
+path: cuentas/999
+body: {
+  "saldoInicial": 10000.999345,
+  "tipoDeCuenta": "Ahorros",
+  "clienteId": 1,
+  "numeroDeCuenta": "1234567812345000",
+  "activo": true
+}
+statusCode: 404
+expectedResponse: {
+  "message": "El ID de cuenta [999] no se ha encontrado"
+}

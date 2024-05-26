@@ -1,0 +1,4 @@
+urls:
+  userBaseUrl: 'http://localhost:8060'
+  accountBaseUrl: 'http://localhost:8061'
+  

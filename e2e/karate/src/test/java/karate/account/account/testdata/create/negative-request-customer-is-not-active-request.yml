@@ -1,0 +1,12 @@
+path: cuentas
+body: {
+  "saldoInicial": 0.999345,
+  "tipoDeCuenta": "Corriente",
+  "clienteId": 4,
+  "numeroDeCuenta": "9876987698769876",
+  "activo": true
+}
+statusCode: 400
+expectedResponse: {
+  "message": "No existe ningún cliente activo con el id [4]"
+}

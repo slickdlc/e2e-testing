@@ -1,0 +1,12 @@
+path: cuentas
+body: {
+  "saldoInicial": 0.999345,
+  "tipoDeCuenta": "Corriente",
+  "clienteId": 1,
+  "numeroDeCuenta": "0",
+  "activo": true
+}
+statusCode: 400
+expectedResponse: {
+  "numeroDeCuenta": "El número de cuenta debe tener 16 dígitos"
+}
