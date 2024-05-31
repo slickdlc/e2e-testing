@@ -1,10 +1,10 @@
 {
 	"info": {
-		"_postman_id": "6a088bf9-c6fe-47ea-85f0-6587162400c6",
-		"name": "user",
+		"_postman_id": "0dc9b426-ae1a-4445-9f2e-d26a69913512",
+		"name": "Users",
 		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
-		"_exporter_id": "24085295",
-		"_collection_link": "https://bold-trinity-794168.postman.co/workspace/Tecra~9d504339-2308-4173-8d17-f5a19e58ebbe/collection/24085295-6a088bf9-c6fe-47ea-85f0-6587162400c6?action=share&source=collection_link&creator=24085295"
+		"_exporter_id": "7765533",
+		"_collection_link": "https://restless-shadow-543734.postman.co/workspace/End-to-End-testing~501964e9-d8a5-456f-9362-a1ad63efd705/collection/7765533-0dc9b426-ae1a-4445-9f2e-d26a69913512?action=share&source=collection_link&creator=7765533"
 	},
 	"item": [
 		{
