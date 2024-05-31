@@ -19,24 +19,23 @@ import org.junit.jupiter.api.TestFactory;
 
 public class Karate extends Runner.Builder<Karate> implements Iterable<DynamicNode> {
 
-  // short cut for new Karate().path()
   public static Karate run(final String... paths) {
     return new Karate().path(paths);
   }
 
   @Override
   public Iterator<DynamicNode> iterator() {
-    Suite suite = new Suite(this);
-    List<DynamicNode> list = new ArrayList();
-    List<CompletableFuture> futures = new ArrayList();
-    for (FeatureCall featureCall : suite.features) {
-      FeatureNode featureNode = new FeatureNode(suite, futures, featureCall, suite.tagSelector);
+    final Suite suite = new Suite(this);
+    final List<DynamicNode> list = new ArrayList();
+    final List<CompletableFuture> futures = new ArrayList();
+    for (final FeatureCall featureCall : suite.features) {
+      final FeatureNode featureNode = new FeatureNode(suite, futures, featureCall, suite.tagSelector);
       if (!featureNode.hasNext()) // if no scenarios to execute, just skip the feature
       {
         continue;
       }
-      String testName = featureCall.feature.getResource().getFileNameWithoutExtension();
-      DynamicNode node = DynamicContainer.dynamicContainer(testName, featureNode);
+      final String testName = featureCall.feature.getResource().getFileNameWithoutExtension();
+      final DynamicNode node = DynamicContainer.dynamicContainer(testName, featureNode);
       list.add(node);
     }
     if (list.isEmpty()) {

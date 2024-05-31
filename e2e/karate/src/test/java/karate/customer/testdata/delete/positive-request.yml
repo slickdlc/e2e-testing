@@ -1,6 +1,0 @@
-path: clientes/2
-body: { }
-statusCode: 200
-expectedResponse: {
-  "message": "El cliente ha sido eliminado satisfactoriamente"
-}

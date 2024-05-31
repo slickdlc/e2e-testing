@@ -1,6 +1,0 @@
-path: cuentas/999
-body: { }
-statusCode: 404
-expectedResponse: {
-  "message": "El ID de cuenta [999] no se ha encontrado"
-}

@@ -156,7 +156,7 @@
 	"variable": [
 		{
 			"key": "baseUrl",
-			"value": "localhost:8060/clientes",
+			"value": "localhost:8060/usuarios",
 			"type": "string"
 		}
 	]

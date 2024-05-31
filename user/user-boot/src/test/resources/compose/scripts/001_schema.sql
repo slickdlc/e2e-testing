@@ -1,1 +1,1 @@
-create database devsu;
+create database tecra;

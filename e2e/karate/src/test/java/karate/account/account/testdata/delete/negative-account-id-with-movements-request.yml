@@ -1,6 +1,0 @@
-path: cuentas/6
-body: { }
-statusCode: 400
-expectedResponse: {
-  "message": "El ID de cuenta [6] tiene movimientos y no puede ser modificado o eliminado"
-}

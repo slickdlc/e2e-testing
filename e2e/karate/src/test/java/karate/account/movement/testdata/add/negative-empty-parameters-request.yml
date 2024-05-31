@@ -1,7 +1,0 @@
-path: movimientos
-body: { }
-statusCode: 400
-expectedResponse: {
-  "movementRequestDto": "La cuenta es obligatoria: cuentaId o numeroDeCuenta. Se debe informar uno de ellos solamente.",
-  "saldo": "El saldo no puede ser 0"
-}

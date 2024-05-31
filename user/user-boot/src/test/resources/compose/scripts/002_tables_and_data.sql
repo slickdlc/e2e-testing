@@ -1,4 +1,4 @@
-use devsu;
+use tecra;
 create table user_entity (user_id integer not null auto_increment, address varchar(255), age integer, gender varchar(255), identification varchar(255), name varchar(255), phone varchar(255), active bit not null, password varchar(255), primary key (user_id)) engine=InnoDB;
 alter table user_entity add constraint UK__nkj8yqiw2jffsunv4myman79s unique (identification);
 

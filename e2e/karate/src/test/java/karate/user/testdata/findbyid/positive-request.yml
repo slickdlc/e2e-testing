@@ -1,0 +1,14 @@
+path: usuarios/1
+body: { }
+statusCode: 200
+expectedResponse: {
+  "usuarioId": 1,
+  "nombre": "Hans De La Cruz Acosta",
+  "genero": "M",
+  "edad": 26,
+  "identificacion": "71717171",
+  "direccion": "Av. 28 de Julio #1999",
+  "telefono": "959825887",
+  "contrasena": "passw0rd",
+  "activo": true
+}

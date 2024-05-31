@@ -1,6 +1,0 @@
-path: cuentas/2
-body: { }
-statusCode: 200
-expectedResponse: {
-  "message": "Cuenta eliminada satisfactoriamente"
-}

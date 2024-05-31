@@ -8,7 +8,7 @@
     <version>3.2.3</version>
     <relativePath /> <!-- lookup parent from repository -->
   </parent>
-  <groupId>com.devsu</groupId>
+  <groupId>com.tecra</groupId>
   <artifactId>user</artifactId>
   <version>0.1.0-SNAPSHOT</version>
   <packaging>pom</packaging>
@@ -23,7 +23,7 @@
     <module>user-application</module>
     <module>user-boot</module>
   </modules>
-  <description>Microservicios de clientes</description>
+  <description>Microservicios de usuarios</description>
   <properties>
     <java.version>17</java.version>
     <maven.compiler.source>17</maven.compiler.source>
@@ -107,7 +107,7 @@
           <groupId>org.springframework.boot</groupId>
           <artifactId>spring-boot-maven-plugin</artifactId>
           <configuration>
-            <mainClass>com.devsu.account.boot.AccountApplication</mainClass>
+            <mainClass>com.tecra.user.boot.UserApplication</mainClass>
           </configuration>
         </plugin>
         <plugin>

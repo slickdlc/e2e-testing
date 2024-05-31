@@ -1,0 +1,6 @@
+path: usuarios/2
+body: { }
+statusCode: 200
+expectedResponse: {
+  "message": "El usuario ha sido eliminado satisfactoriamente"
+}
