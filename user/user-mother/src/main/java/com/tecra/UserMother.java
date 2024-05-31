@@ -43,8 +43,9 @@ public class UserMother {
   public static User complete() {
     return builder().build();
   }
-  
-  public static User withUserId(final Integer userId){
+
+  public static User withUserId(final Integer userId) {
     return builder().userId(userId).build();
   }
+
 }
